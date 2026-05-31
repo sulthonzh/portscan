@@ -1,0 +1,28 @@
+{
+  "name": "portscan",
+  "version": "1.0.0",
+  "description": "Zero-dep port scanner with service detection, banner grabbing, and multiple output formats",
+  "main": "dist/index.js",
+  "bin": {
+    "portscan": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --loader tsx --test test/*.test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["port", "scanner", "network", "service-detection", "banner-grab", "cli"],
+  "author": "sulthonzh",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/portscan"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "tsx": "^4.7.0",
+    "@types/node": "^20.0.0"
+  },
+  "files": ["dist"]
+}
