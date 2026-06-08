@@ -20,7 +20,7 @@
     "url": "https://github.com/sulthonzh/portscan"
   },
   "devDependencies": {
-    "typescript": "^5.4.0",
+    "typescript": "^6.0.0",
     "tsx": "^4.7.0",
     "@types/node": "^20.0.0"
   },
